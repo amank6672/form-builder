@@ -1,4 +1,4 @@
-import FormBuilder from './Components/FormBuilder/FormBuilder';
+import FormBuilder from './components/FormBuilder/FormBuilder';
 import { formConfig } from './util';
 
 function App() {

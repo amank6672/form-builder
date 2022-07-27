@@ -1,7 +1,7 @@
-import TypeInput from "./Components/common-components/TypeInput";
-import TypeRadio from "./Components/common-components/TypeRadio";
-import TypeSelect from "./Components/common-components/TypeSelect";
-import TypeTextarea from "./Components/common-components/TypeTextarea";
+import TypeInput from "./components/common/TypeInput";
+import TypeRadio from "./components/common/TypeRadio";
+import TypeSelect from "./components/common/TypeSelect";
+import TypeTextarea from "./components/common/TypeTextarea";
 import { string, number, object } from 'yup';
 
 
