@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { createSchema } from "../../../util";
+import { createSchema } from "../../util";
 
 const useForm = (formConfig) => {
     const [formData, setFormData] = useState({});

@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 import { ComponentCreator } from "../../util";
-import useForm from "./common-components/useFormHook";
+import useForm from "../common-components/useFormHook";
 import './FormBuilder.css';
 
 const FormBuilder = ({ formConfig, onSubmitListner }) => {
