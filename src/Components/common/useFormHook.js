@@ -46,6 +46,7 @@ const useForm = (formConfig) => {
         if (err.errors.length > 0) {
             err.inner.map(it => {
                 tempError[it.path] = it.message;
+                return null;
             });
         }
         setError({ ...error, ...tempError });

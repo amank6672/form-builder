@@ -1,7 +1,7 @@
-import TypeInput from "./components/common/TypeInput";
-import TypeRadio from "./components/common/TypeRadio";
-import TypeSelect from "./components/common/TypeSelect";
-import TypeTextarea from "./components/common/TypeTextarea";
+import TypeInput from "./Components/common/TypeInput";
+import TypeRadio from "./Components/common/TypeRadio";
+import TypeSelect from "./Components/common/TypeSelect";
+import TypeTextarea from "./Components/common/TypeTextarea";
 import { string, number, object } from 'yup';
 
 
@@ -181,9 +181,11 @@ export const createSchema = (fields) => {
             if (validation[validationType]) {
                 fieldValidation = getCorrespondingSchemValidator(validationType, fieldValidation);
             }
+            return null;
         });
         if (fieldValidation)
             schemObject[field.id] = fieldValidation;
+        return null;
     })
     return object(schemObject);
 }
