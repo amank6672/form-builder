@@ -1,0 +1,8 @@
+.form-builder {
+    width: 400px;
+    margin: auto;
+}
+
+.form-builder .element-wrapper {
+    margin-bottom: 15px;
+}
